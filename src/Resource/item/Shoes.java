@@ -1,20 +1,15 @@
-package item;
+package Resource.item;
 
 import main.GamePanel;
-import main.SuperObj;
+import Entity.Entity;
 
 import javax.imageio.ImageIO;
 import java.io.IOException;
 
-public class Shoes extends SuperObj {
-    GamePanel gp;
+public class Shoes extends Entity {
     public Shoes(GamePanel gp){
+        super(gp);
         name="item.Shoes";
-        try{
-            image= ImageIO.read(getClass().getResourceAsStream("/object/shoes.png"));
-            utility.scale(image,gp.tileSize,gp.tileSize);
-        }catch(IOException e){
-            e.printStackTrace();
-        }
+        image=setup("/object/shoes.png");
     }
 }

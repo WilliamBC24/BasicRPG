@@ -1,11 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Pracc:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49456184-2784-4836-b654-0dfc3fca1722" name="Changes" comment="" />
+    <list default="true" id="49456184-2784-4836-b654-0dfc3fca1722" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Pracc_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pracc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bru.idea/bru.idea.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Chest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Coin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/DarkRock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/DarkShield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/DarkSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Fireball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Health.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Heart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Hermes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/ShieldOfTheLost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/Teleport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/WoodShield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/WoodSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/chest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/door.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballdown1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballdown2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballleft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballleft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballright1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballright2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballup1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/fireball/fireballup2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/image/object/shoes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/item/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/item/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Resource/item/Shoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/NPC_Black.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Projectile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Skeleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/CollisionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/EventRect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/KeyDetech.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Setter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/TileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/abc.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Script" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.desktop/java/awt/event/KeyListener.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LiCuyDvJ0X5QrQSCPhTl59EYlA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +103,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Pracc\src\Resource\image\object\fireball" />
+      <recent name="C:\Users\Admin\Desktop\Pracc\src\Resource\image\chara" />
+      <recent name="C:\Users\Admin\Desktop\Pracc\src\Resource\image\object" />
+      <recent name="C:\Users\Admin\Desktop\Pracc\src\Resource\sound" />
+      <recent name="C:\Users\Admin\Desktop\Pracc\src\tile" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +134,43 @@
       <updated>1676344745850</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/GamePanel.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Event.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/Event.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Entity/Player.java</url>
+          <line>121</line>
+          <properties class="Entity.Player" method="restoreCheckpointItems">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

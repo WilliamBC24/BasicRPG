@@ -1,3 +1,5 @@
+package main;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.io.BufferedReader;
@@ -8,16 +10,17 @@ import java.io.InputStreamReader;
 public class TileManager {
     GamePanel gp;
     public Tile[] tile;
-    public int mapTileNum[][];
+    public int mapTileNum[][][];
 
     public TileManager(GamePanel gp) {
         this.gp = gp;
 
         tile = new Tile[50];
-        mapTileNum = new int[gp.worldColumn][gp.worldRow];
+        mapTileNum = new int[gp.maxMap][gp.worldColumn][gp.worldRow];
 
         getTileImage();
-        loadMap();
+        loadMap("/Resource/image/map/new.txt",0);
+        loadMap("/Resource/image/map/next.txt",1);
     }
 
 
@@ -76,7 +79,7 @@ public class TileManager {
         Utility utility = new Utility();
         try{
              tile[index]=new Tile();
-             tile[index].image=ImageIO.read(getClass().getResourceAsStream("/tile/"+name+".png"));
+             tile[index].image=ImageIO.read(getClass().getResourceAsStream("/Resource/image/tile/" +name+".png"));
              tile[index].image=utility.scale(tile[index].image,gp.tileSize,gp.tileSize);
              tile[index].collision=collision;
         }catch(IOException e){
@@ -84,9 +87,9 @@ public class TileManager {
         }
     }
 
-    public void loadMap() {
+    public void loadMap(String filePath,int map) {
         try {
-            InputStream is = getClass().getResourceAsStream("/map/new.txt");
+            InputStream is = getClass().getResourceAsStream(filePath);
             BufferedReader br = new BufferedReader(new InputStreamReader(is));
             int row = 0;
             int col = 0;
@@ -95,7 +98,7 @@ public class TileManager {
                 while (col < gp.worldColumn) {
                     String number[] = line.split(" ");
                     int num = Integer.parseInt(number[col]);
-                    mapTileNum[col][row] = num;
+                    mapTileNum[map][col][row] = num;
                     col++;
                 }
                 if (col == gp.worldColumn) {
@@ -113,7 +116,7 @@ public class TileManager {
         int worldCol = 0;
         int worldRow = 0;
         while (worldRow < gp.worldRow && worldCol < gp.worldColumn) {
-            int tileNum = mapTileNum[worldCol][worldRow];
+            int tileNum = mapTileNum[gp.currentMap][worldCol][worldRow];
             int worldX = worldCol * gp.tileSize;
             int worldY = worldRow * gp.tileSize;
             int screenX = worldX - gp.player.worldX + gp.player.screenX;
