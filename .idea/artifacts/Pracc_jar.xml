@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Pracc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Pracc_jar</output-path>
+    <root id="archive" name="Pracc.jar">
+      <element id="module-output" name="Pracc" />
+      <element id="module-output" name="bru.idea" />
+    </root>
+  </artifact>
+</component>
